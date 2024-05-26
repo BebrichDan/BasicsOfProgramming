@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libfile_io.a CMakeFiles/file_io.dir/file.c.obj CMakeFiles/file_io.dir/file_test.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe libfile_io.a

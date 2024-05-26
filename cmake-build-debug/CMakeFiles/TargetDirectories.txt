@@ -1,0 +1,17 @@
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/CMakeFiles/untitled3.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/data_structures/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/data_structures/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/algorithms/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/algorithms/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/string/CMakeFiles/string.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/string/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/string/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/file_io.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/rebuild_cache.dir

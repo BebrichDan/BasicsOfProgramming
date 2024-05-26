@@ -1,0 +1,19 @@
+# ninja log v5
+6	416	7382512570360403	build.ninja	28db72eb3e125bad
+3	395	7382512570360403	build.ninja	28db72eb3e125bad
+26	151	7382512572738926	CMakeFiles/untitled3.dir/main.c.obj	7922a0495ee30c01
+42	205	7382512573278591	libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj	ced446a7886f74a1
+50	222	7382512573438493	libs/string/CMakeFiles/string.dir/string_test.c.obj	bb9232291e6aacc2
+34	234	7382512573568415	CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj	7f41aad1f39e40
+61	259	7382512573808283	libs/file_io/CMakeFiles/file_io.dir/file_test.c.obj	d536141fdef60681
+30	271	7382512573938186	CMakeFiles/untitled3.dir/libs/file_io/file.c.obj	de2dec0fe1c87897
+46	288	7382512574118079	libs/string/CMakeFiles/string.dir/tasks/string.c.obj	d5067036608d3fd
+56	299	7382512574218020	libs/file_io/CMakeFiles/file_io.dir/file.c.obj	13a52fe6d6ad55d9
+38	361	7382512574837627	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj	c7bf3fb588bc7577
+206	424	7382512575477255	libs/algorithms/libalgorithms.a	d836a5d8bd66a0a6
+299	424	7382512575477255	libs/file_io/libfile_io.a	4f063d5c178ba7e8
+289	430	7382512575527207	libs/string/libstring.a	63eeba4b0a101266
+361	447	7382512575717117	libs/data_structures/libdata_structures.a	fd4e6c4f9381c040
+447	655	7382512577695894	untitled3.exe	7e284e3f9cd2091b
+23	130	7382513309843037	CMakeFiles/untitled3.dir/main.c.obj	7922a0495ee30c01
+131	288	7382513311332111	untitled3.exe	7e284e3f9cd2091b

@@ -1,0 +1,179 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/data_structures",
+					"jsonFile" : "directory-libs.data_structures-Debug-0cfcfe6a98a5047ea631.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/data_structures",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libs/algorithms",
+					"jsonFile" : "directory-libs.algorithms-Debug-82761d2213cf66600325.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/algorithms",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libs/string",
+					"jsonFile" : "directory-libs.string-Debug-ab1e794c0732bc70e943.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/string",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libs/file_io",
+					"jsonFile" : "directory-libs.file_io-Debug-3285dac99074a30a51f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/file_io",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "untitled3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "algorithms::@4f84be16bc75261b2db5",
+					"jsonFile" : "target-algorithms-Debug-6fc1e4b2fae4e282f85d.json",
+					"name" : "algorithms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "data_structures::@396ab3a44f37844d7cdb",
+					"jsonFile" : "target-data_structures-Debug-f8fca48ac28413f33e5c.json",
+					"name" : "data_structures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "file_io::@93145cb08224930d1a1b",
+					"jsonFile" : "target-file_io-Debug-6b8079987c3585e51cc8.json",
+					"name" : "file_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "string::@3f2b1fb9d1440f41f43e",
+					"jsonFile" : "target-string-Debug-3216af9341eb861cddff.json",
+					"name" : "string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled3-Debug-9efbb64d4408eaa2120c.json",
+					"name" : "untitled3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/bob/CLionProjects/OP/cmake-build-debug",
+		"source" : "C:/Users/bob/CLionProjects/OP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
