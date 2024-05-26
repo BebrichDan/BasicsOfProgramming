@@ -40,6 +40,18 @@
 			{
 				"command" : 1,
 				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
 				"line" : 17,
 				"parent" : 0
 			}
@@ -79,6 +91,14 @@
 		},
 		{
 			"backtrace" : 3,
+			"id" : "algorithms::@4f84be16bc75261b2db5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "string::@3f2b1fb9d1440f41f43e"
+		},
+		{
+			"backtrace" : 5,
 			"id" : "file_io::@93145cb08224930d1a1b"
 		}
 	],
@@ -102,6 +122,16 @@
 			},
 			{
 				"backtrace" : 3,
+				"fragment" : "libs\\algorithms\\libalgorithms.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libs\\string\\libstring.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
 				"fragment" : "libs\\file_io\\libfile_io.a",
 				"role" : "libraries"
 			},

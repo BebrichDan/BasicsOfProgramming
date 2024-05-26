@@ -124,6 +124,8 @@ untitled3.exe: CMakeFiles/untitled3.dir/libs/file_io/file.c.obj
 untitled3.exe: CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj
 untitled3.exe: CMakeFiles/untitled3.dir/build.make
 untitled3.exe: libs/data_structures/libdata_structures.a
+untitled3.exe: libs/algorithms/libalgorithms.a
+untitled3.exe: libs/string/libstring.a
 untitled3.exe: libs/file_io/libfile_io.a
 untitled3.exe: CMakeFiles/untitled3.dir/linkLibs.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/objects1.rsp
