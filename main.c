@@ -3,6 +3,8 @@
 
 int main(void)
 {
+    printf("holla");
+
     testFileAll();
 
     return 0;
