@@ -10,4 +10,6 @@ void testAll_fill_matrix();
 
 void testAll_liveGame();
 
+void testAll_MedianFilter();
+
 #endif //JOB_TEST_STREAMS_H

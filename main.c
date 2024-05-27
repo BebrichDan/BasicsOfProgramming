@@ -9,6 +9,8 @@ int main(void)
 
     testAll_liveGame();
 
+    testAll_MedianFilter();
+
     printf("holla");
     return 0;
 }
