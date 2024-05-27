@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/bob/CLionProjects/OP/libs/algorithms/CMakeLists.txt"
   "C:/Users/bob/CLionProjects/OP/libs/data_structures/CMakeLists.txt"
   "C:/Users/bob/CLionProjects/OP/libs/file_io/CMakeLists.txt"
+  "C:/Users/bob/CLionProjects/OP/libs/streams/CMakeLists.txt"
   "C:/Users/bob/CLionProjects/OP/libs/string/CMakeLists.txt"
   )
 
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "libs/algorithms/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/string/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/file_io/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/streams/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -62,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/algorithms/CMakeFiles/algorithms.dir/DependInfo.cmake"
   "libs/string/CMakeFiles/string.dir/DependInfo.cmake"
   "libs/file_io/CMakeFiles/file_io.dir/DependInfo.cmake"
+  "libs/streams/CMakeFiles/streams.dir/DependInfo.cmake"
   )

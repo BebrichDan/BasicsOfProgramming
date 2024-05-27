@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -29,7 +29,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
 					"minimumCMakeVersion" : 
@@ -82,7 +83,7 @@
 					"source" : "libs/string",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -99,6 +100,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "libs/streams",
+					"jsonFile" : "directory-libs.streams-Debug-24ea9fae3db1e56ca6bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/streams",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -112,7 +128,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"name" : "untitled3",
 					"targetIndexes" : 
@@ -121,7 +138,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -149,6 +167,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "streams::@820c22d89b51d2ab47c6",
+					"jsonFile" : "target-streams-Debug-86610e010b8f95b21e6d.json",
+					"name" : "streams",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "string::@3f2b1fb9d1440f41f43e",
 					"jsonFile" : "target-string-Debug-3216af9341eb861cddff.json",
@@ -158,7 +183,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled3-Debug-68097b5b9715385d2c5b.json",
+					"jsonFile" : "target-untitled3-Debug-c74580b9b2d727a65a57.json",
 					"name" : "untitled3",
 					"projectIndex" : 0
 				}

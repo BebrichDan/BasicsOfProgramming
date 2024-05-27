@@ -7,7 +7,11 @@ add_executable(untitled3 main.c
         libs/file_io/file.c
         libs/file_io/file.h
         libs/file_io/file_test.c
-        libs/file_io/file_test.h)
+        libs/file_io/file_test.h
+        libs/streams/streams.c
+        libs/streams/streams.h
+        libs/streams/testStreams.c
+        libs/streams/testStreams.h)
 
 add_subdirectory(libs)
 
@@ -15,3 +19,4 @@ target_link_libraries(untitled3 data_structures)
 target_link_libraries(untitled3 algorithms)
 target_link_libraries(untitled3 string)
 target_link_libraries(untitled3 file_io)
+target_link_libraries(untitled3 streams)

@@ -5,7 +5,7 @@
 		<Option title="untitled3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\data_structures\;CMake Files\libs\algorithms\;CMake Files\libs\string\;CMake Files\libs\file_io\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\data_structures\;CMake Files\libs\algorithms\;CMake Files\libs\string\;CMake Files\libs\file_io\;CMake Files\libs\streams\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/bob/CLionProjects/OP/cmake-build-debug"/>
@@ -237,6 +237,46 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="streams">
+				<Option output="C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/libstreams.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 streams"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streams/fast">
+				<Option output="C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/libstreams.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 streams/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/algorithms/array/array.c">
 			<Option target="algorithms"/>
@@ -265,6 +305,22 @@
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/file_io/file_test.h">
 			<Option target="untitled3"/>
 			<Option target="file_io"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/streams/streams.c">
+			<Option target="untitled3"/>
+			<Option target="streams"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/streams/streams.h">
+			<Option target="untitled3"/>
+			<Option target="streams"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/streams/testStreams.c">
+			<Option target="untitled3"/>
+			<Option target="streams"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/streams/testStreams.h">
+			<Option target="untitled3"/>
+			<Option target="streams"/>
 		</Unit>
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/string/string_test.c">
 			<Option target="string"/>
@@ -298,6 +354,9 @@
 		</Unit>
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/file_io/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libs\file_io\"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/streams/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\streams\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

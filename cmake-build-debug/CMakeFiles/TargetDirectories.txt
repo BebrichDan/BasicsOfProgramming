@@ -15,3 +15,6 @@ C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/string/CMakeFiles/rebuild_c
 C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/file_io.dir
 C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/edit_cache.dir
 C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/file_io/CMakeFiles/rebuild_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/CMakeFiles/streams.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/CMakeFiles/edit_cache.dir
+C:/Users/bob/CLionProjects/OP/cmake-build-debug/libs/streams/CMakeFiles/rebuild_cache.dir

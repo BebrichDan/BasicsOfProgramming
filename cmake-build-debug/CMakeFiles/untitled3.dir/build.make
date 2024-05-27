@@ -110,11 +110,41 @@ CMakeFiles/untitled3.dir/libs/file_io/file_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled3.dir/libs/file_io/file_test.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\bob\CLionProjects\OP\libs\file_io\file_test.c -o CMakeFiles\untitled3.dir\libs\file_io\file_test.c.s
 
+CMakeFiles/untitled3.dir/libs/streams/streams.c.obj: CMakeFiles/untitled3.dir/flags.make
+CMakeFiles/untitled3.dir/libs/streams/streams.c.obj: C:/Users/bob/CLionProjects/OP/libs/streams/streams.c
+CMakeFiles/untitled3.dir/libs/streams/streams.c.obj: CMakeFiles/untitled3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled3.dir/libs/streams/streams.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled3.dir/libs/streams/streams.c.obj -MF CMakeFiles\untitled3.dir\libs\streams\streams.c.obj.d -o CMakeFiles\untitled3.dir\libs\streams\streams.c.obj -c C:\Users\bob\CLionProjects\OP\libs\streams\streams.c
+
+CMakeFiles/untitled3.dir/libs/streams/streams.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled3.dir/libs/streams/streams.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\bob\CLionProjects\OP\libs\streams\streams.c > CMakeFiles\untitled3.dir\libs\streams\streams.c.i
+
+CMakeFiles/untitled3.dir/libs/streams/streams.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled3.dir/libs/streams/streams.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\bob\CLionProjects\OP\libs\streams\streams.c -o CMakeFiles\untitled3.dir\libs\streams\streams.c.s
+
+CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj: CMakeFiles/untitled3.dir/flags.make
+CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj: C:/Users/bob/CLionProjects/OP/libs/streams/testStreams.c
+CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj: CMakeFiles/untitled3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj -MF CMakeFiles\untitled3.dir\libs\streams\testStreams.c.obj.d -o CMakeFiles\untitled3.dir\libs\streams\testStreams.c.obj -c C:\Users\bob\CLionProjects\OP\libs\streams\testStreams.c
+
+CMakeFiles/untitled3.dir/libs/streams/testStreams.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/untitled3.dir/libs/streams/testStreams.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\bob\CLionProjects\OP\libs\streams\testStreams.c > CMakeFiles\untitled3.dir\libs\streams\testStreams.c.i
+
+CMakeFiles/untitled3.dir/libs/streams/testStreams.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/untitled3.dir/libs/streams/testStreams.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\bob\CLionProjects\OP\libs\streams\testStreams.c -o CMakeFiles\untitled3.dir\libs\streams\testStreams.c.s
+
 # Object files for target untitled3
 untitled3_OBJECTS = \
 "CMakeFiles/untitled3.dir/main.c.obj" \
 "CMakeFiles/untitled3.dir/libs/file_io/file.c.obj" \
-"CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj"
+"CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj" \
+"CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" \
+"CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj"
 
 # External object files for target untitled3
 untitled3_EXTERNAL_OBJECTS =
@@ -122,15 +152,18 @@ untitled3_EXTERNAL_OBJECTS =
 untitled3.exe: CMakeFiles/untitled3.dir/main.c.obj
 untitled3.exe: CMakeFiles/untitled3.dir/libs/file_io/file.c.obj
 untitled3.exe: CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj
+untitled3.exe: CMakeFiles/untitled3.dir/libs/streams/streams.c.obj
+untitled3.exe: CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj
 untitled3.exe: CMakeFiles/untitled3.dir/build.make
 untitled3.exe: libs/data_structures/libdata_structures.a
 untitled3.exe: libs/algorithms/libalgorithms.a
 untitled3.exe: libs/string/libstring.a
 untitled3.exe: libs/file_io/libfile_io.a
+untitled3.exe: libs/streams/libstreams.a
 untitled3.exe: CMakeFiles/untitled3.dir/linkLibs.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/objects1.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable untitled3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable untitled3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

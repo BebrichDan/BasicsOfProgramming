@@ -180,6 +180,19 @@ file_io/fast:
 	$(MAKE) $(MAKESILENT) -f libs\file_io\CMakeFiles\file_io.dir\build.make libs/file_io/CMakeFiles/file_io.dir/build
 .PHONY : file_io/fast
 
+#=============================================================================
+# Target rules for targets named streams
+
+# Build rule for target.
+streams: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 streams
+.PHONY : streams
+
+# fast build rule for target.
+streams/fast:
+	$(MAKE) $(MAKESILENT) -f libs\streams\CMakeFiles\streams.dir\build.make libs/streams/CMakeFiles/streams.dir/build
+.PHONY : streams/fast
+
 libs/file_io/file.obj: libs/file_io/file.c.obj
 .PHONY : libs/file_io/file.obj
 
@@ -228,6 +241,54 @@ libs/file_io/file_test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/file_io/file_test.c.s
 .PHONY : libs/file_io/file_test.c.s
 
+libs/streams/streams.obj: libs/streams/streams.c.obj
+.PHONY : libs/streams/streams.obj
+
+# target to build an object file
+libs/streams/streams.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/streams.c.obj
+.PHONY : libs/streams/streams.c.obj
+
+libs/streams/streams.i: libs/streams/streams.c.i
+.PHONY : libs/streams/streams.i
+
+# target to preprocess a source file
+libs/streams/streams.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/streams.c.i
+.PHONY : libs/streams/streams.c.i
+
+libs/streams/streams.s: libs/streams/streams.c.s
+.PHONY : libs/streams/streams.s
+
+# target to generate assembly for a file
+libs/streams/streams.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/streams.c.s
+.PHONY : libs/streams/streams.c.s
+
+libs/streams/testStreams.obj: libs/streams/testStreams.c.obj
+.PHONY : libs/streams/testStreams.obj
+
+# target to build an object file
+libs/streams/testStreams.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj
+.PHONY : libs/streams/testStreams.c.obj
+
+libs/streams/testStreams.i: libs/streams/testStreams.c.i
+.PHONY : libs/streams/testStreams.i
+
+# target to preprocess a source file
+libs/streams/testStreams.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/testStreams.c.i
+.PHONY : libs/streams/testStreams.c.i
+
+libs/streams/testStreams.s: libs/streams/testStreams.c.s
+.PHONY : libs/streams/testStreams.s
+
+# target to generate assembly for a file
+libs/streams/testStreams.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/libs/streams/testStreams.c.s
+.PHONY : libs/streams/testStreams.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -263,6 +324,7 @@ help:
 	@echo ... algorithms
 	@echo ... data_structures
 	@echo ... file_io
+	@echo ... streams
 	@echo ... string
 	@echo ... untitled3
 	@echo ... libs/file_io/file.obj
@@ -271,6 +333,12 @@ help:
 	@echo ... libs/file_io/file_test.obj
 	@echo ... libs/file_io/file_test.i
 	@echo ... libs/file_io/file_test.s
+	@echo ... libs/streams/streams.obj
+	@echo ... libs/streams/streams.i
+	@echo ... libs/streams/streams.s
+	@echo ... libs/streams/testStreams.obj
+	@echo ... libs/streams/testStreams.i
+	@echo ... libs/streams/testStreams.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

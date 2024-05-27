@@ -83,6 +83,7 @@ libs/all: libs/data_structures/all
 libs/all: libs/algorithms/all
 libs/all: libs/string/all
 libs/all: libs/file_io/all
+libs/all: libs/streams/all
 .PHONY : libs/all
 
 # Recursive "preinstall" directory target.
@@ -90,6 +91,7 @@ libs/preinstall: libs/data_structures/preinstall
 libs/preinstall: libs/algorithms/preinstall
 libs/preinstall: libs/string/preinstall
 libs/preinstall: libs/file_io/preinstall
+libs/preinstall: libs/streams/preinstall
 .PHONY : libs/preinstall
 
 # Recursive "clean" directory target.
@@ -97,6 +99,7 @@ libs/clean: libs/data_structures/clean
 libs/clean: libs/algorithms/clean
 libs/clean: libs/string/clean
 libs/clean: libs/file_io/clean
+libs/clean: libs/streams/clean
 .PHONY : libs/clean
 
 #=============================================================================
@@ -145,6 +148,21 @@ libs/file_io/clean: libs/file_io/CMakeFiles/file_io.dir/clean
 .PHONY : libs/file_io/clean
 
 #=============================================================================
+# Directory level rules for directory libs/streams
+
+# Recursive "all" directory target.
+libs/streams/all: libs/streams/CMakeFiles/streams.dir/all
+.PHONY : libs/streams/all
+
+# Recursive "preinstall" directory target.
+libs/streams/preinstall:
+.PHONY : libs/streams/preinstall
+
+# Recursive "clean" directory target.
+libs/streams/clean: libs/streams/CMakeFiles/streams.dir/clean
+.PHONY : libs/streams/clean
+
+#=============================================================================
 # Directory level rules for directory libs/string
 
 # Recursive "all" directory target.
@@ -167,14 +185,15 @@ CMakeFiles/untitled3.dir/all: libs/data_structures/CMakeFiles/data_structures.di
 CMakeFiles/untitled3.dir/all: libs/algorithms/CMakeFiles/algorithms.dir/all
 CMakeFiles/untitled3.dir/all: libs/string/CMakeFiles/string.dir/all
 CMakeFiles/untitled3.dir/all: libs/file_io/CMakeFiles/file_io.dir/all
+CMakeFiles/untitled3.dir/all: libs/streams/CMakeFiles/streams.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14 "Built target untitled3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=14,15,16,17,18,19 "Built target untitled3"
 .PHONY : CMakeFiles/untitled3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/untitled3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/untitled3.dir/rule
@@ -247,7 +266,7 @@ libs/algorithms/CMakeFiles/algorithms.dir/clean:
 libs/string/CMakeFiles/string.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\string\CMakeFiles\string.dir\build.make libs/string/CMakeFiles/string.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\string\CMakeFiles\string.dir\build.make libs/string/CMakeFiles/string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target string"
 .PHONY : libs/string/CMakeFiles/string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -291,6 +310,32 @@ file_io: libs/file_io/CMakeFiles/file_io.dir/rule
 libs/file_io/CMakeFiles/file_io.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libs\file_io\CMakeFiles\file_io.dir\build.make libs/file_io/CMakeFiles/file_io.dir/clean
 .PHONY : libs/file_io/CMakeFiles/file_io.dir/clean
+
+#=============================================================================
+# Target rules for target libs/streams/CMakeFiles/streams.dir
+
+# All Build rule for target.
+libs/streams/CMakeFiles/streams.dir/all:
+	$(MAKE) $(MAKESILENT) -f libs\streams\CMakeFiles\streams.dir\build.make libs/streams/CMakeFiles/streams.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs\streams\CMakeFiles\streams.dir\build.make libs/streams/CMakeFiles/streams.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target streams"
+.PHONY : libs/streams/CMakeFiles/streams.dir/all
+
+# Build rule for subdir invocation for target.
+libs/streams/CMakeFiles/streams.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/streams/CMakeFiles/streams.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bob\CLionProjects\OP\cmake-build-debug\CMakeFiles 0
+.PHONY : libs/streams/CMakeFiles/streams.dir/rule
+
+# Convenience name for target.
+streams: libs/streams/CMakeFiles/streams.dir/rule
+.PHONY : streams
+
+# clean rule for target.
+libs/streams/CMakeFiles/streams.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs\streams\CMakeFiles\streams.dir\build.make libs/streams/CMakeFiles/streams.dir/clean
+.PHONY : libs/streams/CMakeFiles/streams.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

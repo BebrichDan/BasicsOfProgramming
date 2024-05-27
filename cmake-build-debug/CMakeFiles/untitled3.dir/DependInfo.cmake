@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/bob/CLionProjects/OP/libs/file_io/file.c" "CMakeFiles/untitled3.dir/libs/file_io/file.c.obj" "gcc" "CMakeFiles/untitled3.dir/libs/file_io/file.c.obj.d"
   "C:/Users/bob/CLionProjects/OP/libs/file_io/file_test.c" "CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj" "gcc" "CMakeFiles/untitled3.dir/libs/file_io/file_test.c.obj.d"
+  "C:/Users/bob/CLionProjects/OP/libs/streams/streams.c" "CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" "gcc" "CMakeFiles/untitled3.dir/libs/streams/streams.c.obj.d"
+  "C:/Users/bob/CLionProjects/OP/libs/streams/testStreams.c" "CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj" "gcc" "CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj.d"
   "C:/Users/bob/CLionProjects/OP/main.c" "CMakeFiles/untitled3.dir/main.c.obj" "gcc" "CMakeFiles/untitled3.dir/main.c.obj.d"
   )
 

@@ -135,6 +135,9 @@
 		},
 		{
 			"path" : "libs/file_io/CMakeLists.txt"
+		},
+		{
+			"path" : "libs/streams/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
