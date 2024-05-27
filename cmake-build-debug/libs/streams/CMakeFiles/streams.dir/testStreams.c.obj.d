@@ -19,4 +19,18 @@ libs/streams/CMakeFiles/streams.dir/testStreams.c.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/assert.h
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/bob/CLionProjects/OP/libs/string/tasks/string.h \
+ C:/Users/bob/CLionProjects/OP/libs/file_io/file.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+ C:/Users/bob/CLionProjects/OP/libs/data_structures/matrix/matrix.h \
+ C:/Users/bob/CLionProjects/OP/libs/data_structures/vectorVoid/vectorVoid.h \
+ C:\Users\bob\CLionProjects\OP\libs\streams\testStreams.h

@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "streams.h"
+#include "testStreams.h"
+
 
 void testAll_fill_matrix()
 {
@@ -31,6 +33,7 @@ void testAll_fill_matrix()
     }
 }
 
+
 void testAll_liveGame()
 {
     int n = 4;
@@ -54,6 +57,7 @@ void testAll_liveGame()
         }
     }
 }
+
 
 void testAll_MedianFilter()
 {
@@ -99,5 +103,23 @@ void testAll_MedianFilter()
         {
             assert(matrix2[z][x] == res_matrix2[z][x]);
         }
+    }
+}
+
+void testAll_arrayDomainsWithPairedCounter() {
+    char stats[] = "cpdomains = [\"900 google.mail.com\", \"50 yahoo.com\", \"1 intel.mail.com\", \"5 wiki.org\"]\0";
+    vectorVoid res = arrayDomainsWithPairedCounter(stats);
+
+    DomainCounter expDomains[] = {{951, "com"}, {900, "google.mail.com"},
+                                  {1, "intel.mail.com"}, {901, "mail.com"},
+                                  {5, "org"}, {5, "wiki.org"},
+                                  {50, "yahoo.com"}};
+
+    assert(sizeof(expDomains) / sizeof(DomainCounter) == res.size);
+    for (int i = 0; i < res.size; i++) {
+        DomainCounter domain;
+        getVectorValueV(&res, i, &domain);
+        assert(expDomains[i].counter == domain.counter);
+        ASSERT_STRING(expDomains[i].domain, domain.domain);
     }
 }

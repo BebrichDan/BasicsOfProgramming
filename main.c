@@ -11,6 +11,8 @@ int main(void)
 
     testAll_MedianFilter();
 
-    printf("holla");
+    testAll_arrayDomainsWithPairedCounter();
+
+    printf("holla\n");
     return 0;
 }

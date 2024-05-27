@@ -153,6 +153,30 @@ matrix/matrix.c.s:
 	cd /d C:\Users\bob\CLionProjects\OP\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+vectorVoid/vectorVoid.obj: vectorVoid/vectorVoid.c.obj
+.PHONY : vectorVoid/vectorVoid.obj
+
+# target to build an object file
+vectorVoid/vectorVoid.c.obj:
+	cd /d C:\Users\bob\CLionProjects\OP\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vectorVoid/vectorVoid.c.obj
+.PHONY : vectorVoid/vectorVoid.c.obj
+
+vectorVoid/vectorVoid.i: vectorVoid/vectorVoid.c.i
+.PHONY : vectorVoid/vectorVoid.i
+
+# target to preprocess a source file
+vectorVoid/vectorVoid.c.i:
+	cd /d C:\Users\bob\CLionProjects\OP\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vectorVoid/vectorVoid.c.i
+.PHONY : vectorVoid/vectorVoid.c.i
+
+vectorVoid/vectorVoid.s: vectorVoid/vectorVoid.c.s
+.PHONY : vectorVoid/vectorVoid.s
+
+# target to generate assembly for a file
+vectorVoid/vectorVoid.c.s:
+	cd /d C:\Users\bob\CLionProjects\OP\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vectorVoid/vectorVoid.c.s
+.PHONY : vectorVoid/vectorVoid.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +189,9 @@ help:
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... vectorVoid/vectorVoid.obj
+	@echo ... vectorVoid/vectorVoid.i
+	@echo ... vectorVoid/vectorVoid.s
 .PHONY : help
 
 

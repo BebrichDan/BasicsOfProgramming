@@ -290,6 +290,12 @@
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/data_structures/matrix/matrix.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/data_structures/vectorVoid/vectorVoid.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/data_structures/vectorVoid/vectorVoid.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/bob/CLionProjects/OP/libs/file_io/file.c">
 			<Option target="untitled3"/>
 			<Option target="file_io"/>

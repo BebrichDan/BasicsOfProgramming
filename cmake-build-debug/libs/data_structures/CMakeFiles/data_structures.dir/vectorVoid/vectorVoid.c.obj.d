@@ -1,4 +1,6 @@
-CMakeFiles/untitled3.dir/main.c.obj: C:\Users\bob\CLionProjects\OP\main.c \
+libs/data_structures/CMakeFiles/data_structures.dir/vectorVoid/vectorVoid.c.obj: \
+ C:\Users\bob\CLionProjects\OP\libs\data_structures\vectorVoid\vectorVoid.c \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -10,7 +12,6 @@ CMakeFiles/untitled3.dir/main.c.obj: C:\Users\bob\CLionProjects\OP\main.c \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:\Users\bob\CLionProjects\OP\libs/file_io/file_test.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
@@ -21,15 +22,6 @@ CMakeFiles/untitled3.dir/main.c.obj: C:\Users\bob\CLionProjects\OP\main.c \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/errno.h \
- C:\Users\bob\CLionProjects\OP\libs/streams/streams.h \
- C:/Users/bob/CLionProjects/OP/libs/data_structures/matrix/matrix.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:/Users/bob/CLionProjects/OP/libs/string/tasks/string.h \
- C:/Users/bob/CLionProjects/OP/libs/file_io/file.h \
- C:/Users/bob/CLionProjects/OP/libs/data_structures/vectorVoid/vectorVoid.h \
- C:\Users\bob\CLionProjects\OP\libs/streams/testStreams.h
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:\Users\bob\CLionProjects\OP\libs\data_structures\vectorVoid\vectorVoid.h

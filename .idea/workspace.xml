@@ -26,22 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec2c2b3-7b09-4647-9b63-35853a21cf8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/compiler_depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-27T11-26-58-0829.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-27T12-58-50-0961.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/compiler_depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/data_structures/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/data_structures/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/streams.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/streams.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/streams.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/streams.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/testStreams.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/testStreams.c" afterDir="false" />
@@ -162,7 +161,7 @@
       <workItem from="1716751272551" duration="728000" />
       <workItem from="1716752018486" duration="1155000" />
       <workItem from="1716801712053" duration="2814000" />
-      <workItem from="1716814725830" duration="2248000" />
+      <workItem from="1716814725830" duration="6574000" />
     </task>
     <servers />
   </component>
