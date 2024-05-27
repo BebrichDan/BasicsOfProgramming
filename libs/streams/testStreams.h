@@ -8,4 +8,6 @@
 
 void testAll_fill_matrix();
 
+void testAll_liveGame();
+
 #endif //JOB_TEST_STREAMS_H

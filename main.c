@@ -5,9 +5,10 @@
 
 int main(void)
 {
-    printf("holla");
-
     testAll_fill_matrix();
 
+    testAll_liveGame();
+
+    printf("holla");
     return 0;
 }
