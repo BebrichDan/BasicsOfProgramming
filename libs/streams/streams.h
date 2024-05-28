@@ -36,7 +36,8 @@ typedef struct DomainCounter {
 void parsedDomainStat(vectorVoid *data, char *start, char *end);
 int compareDomainCounterNames(const void *domainCounterPtr1, const void *domainCounterPtr2);
 vectorVoid arrayDomainsWithPairedCounter(char *stats);
-
+//5
+int getQuantitySubmatrices(matrix *m);
 
 
 #endif //JOB_STREAMS_H

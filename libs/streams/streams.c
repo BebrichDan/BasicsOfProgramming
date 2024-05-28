@@ -24,6 +24,7 @@ void fill_matrix(int *matrix, size_t sizeOfMatrix, int *query, size_t queryCount
         }
     }
 }
+
 //2
 int countNeighbors(int *matrix, int n, int m, int col, int row)
 {
@@ -91,6 +92,7 @@ void liveGame(int *matrix, size_t n, size_t m)
         }
     }
 }
+
 //3
 int compareInts1(const void *intPtr1, const void *intPtr2)
 {
@@ -299,6 +301,51 @@ vectorVoid arrayDomainsWithPairedCounter(char *stats)
     deleteVectorV(&data);
 
     return group;
+}
+//5
+int getQuantitySubmatrices(matrix *m)
+{
+    matrix nums = getMemMatrix(m->nRows, m->nCols);
+
+    int val = 0;
+    for (int i = 0; i < m->nRows; i++)
+    {
+        for (int j = 0; j < m->nCols; j++)
+        {
+            if (m->values[i][j] == 0)
+            {
+                val = 0;
+            } else
+            {
+                if (j > 0)
+                {
+                    val = nums.values[i][j - 1] + 1;
+                } else
+                {
+                    val = 1;
+                }
+            }
+            nums.values[i][j] = val;
+        }
+    }
+
+    int count = 0;
+    for (int i = 0; i < m->nRows; i++)
+    {
+        for (int j = 0; j < m->nCols; j++)
+        {
+            int minWidth = nums.values[i][j];
+            for (int k = i; k < m->nRows; k++)
+            {
+                if (minWidth > nums.values[k][j])
+                {
+                    minWidth = nums.values[k][j];
+                }
+                count += minWidth;
+            }
+        }
+    }
+    return count;
 }
 
 
