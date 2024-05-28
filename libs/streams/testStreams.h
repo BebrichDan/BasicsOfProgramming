@@ -19,5 +19,7 @@ void testAll_arrayDomainsWithPairedCounter();
 void testAll_getQuantitySubmatrices();
 //6
 void testAll_getMinLexicographicallyStr();
+//7
+void testAll_getMaxBinThree();
 
 #endif //JOB_TEST_STREAMS_H

@@ -27,6 +27,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bec2c2b3-7b09-4647-9b63-35853a21cf8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-27T15-43-17-0933.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-28T12-24-50-0246.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/streams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/libs/streams/testStreams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/streams.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/streams.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/streams.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/streams.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/streams/testStreams.c" beforeDir="false" afterPath="$PROJECT_DIR$/libs/streams/testStreams.c" afterDir="false" />
@@ -148,7 +159,7 @@
       <workItem from="1716752018486" duration="1155000" />
       <workItem from="1716801712053" duration="2814000" />
       <workItem from="1716814725830" duration="8199000" />
-      <workItem from="1716899086888" duration="787000" />
+      <workItem from="1716899086888" duration="1839000" />
     </task>
     <servers />
   </component>

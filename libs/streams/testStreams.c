@@ -157,3 +157,21 @@ void testAll_getMinLexicographicallyStr()
     ASSERT_STRING("123549876", res1)
     ASSERT_STRING("4321", res2)
 }
+
+//7
+void testAll_getMaxBinThree()
+{
+    int nums[6] = {3, 2, 1, 6, 0, 5};
+
+    vectorVoid res = getMaxBinThree(nums, sizeof(nums) / sizeof(int));
+
+    int test[9] = {6, 3, 5, -1, 2, 0, -1, -1, 1};
+    assert(sizeof(test) / sizeof(int) == res.size);
+
+    for (int i = 0; i < res.size; i++)
+    {
+        TreeItem treeItem;
+        getVectorValueV(&res, i, &treeItem);
+        assert(test[i] == treeItem.value);
+    }
+}

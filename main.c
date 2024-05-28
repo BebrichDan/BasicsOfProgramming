@@ -15,6 +15,8 @@ int main(void)
 
     testAll_getMinLexicographicallyStr();
 
+    testAll_getMaxBinThree();
+
     printf("holla\n");
     return 0;
 }
