@@ -17,5 +17,7 @@ void testAll_MedianFilter();
 void testAll_arrayDomainsWithPairedCounter();
 //5
 void testAll_getQuantitySubmatrices();
+//6
+void testAll_getMinLexicographicallyStr();
 
 #endif //JOB_TEST_STREAMS_H

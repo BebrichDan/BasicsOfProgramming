@@ -38,6 +38,7 @@ int compareDomainCounterNames(const void *domainCounterPtr1, const void *domainC
 vectorVoid arrayDomainsWithPairedCounter(char *stats);
 //5
 int getQuantitySubmatrices(matrix *m);
-
+//6
+char *getMinLexicographicallyStr(char *pattern);
 
 #endif //JOB_STREAMS_H

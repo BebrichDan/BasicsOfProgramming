@@ -32,6 +32,7 @@ void testAll_fill_matrix()
         }
     }
 }
+
 //2
 void testAll_liveGame()
 {
@@ -56,6 +57,7 @@ void testAll_liveGame()
         }
     }
 }
+
 //3
 void testAll_MedianFilter()
 {
@@ -103,6 +105,7 @@ void testAll_MedianFilter()
         }
     }
 }
+
 //4
 void testAll_arrayDomainsWithPairedCounter()
 {
@@ -126,6 +129,7 @@ void testAll_arrayDomainsWithPairedCounter()
         ASSERT_STRING(expDomains[i].domain, domain.domain);
     }
 }
+
 //5
 void testAll_getQuantitySubmatrices()
 {
@@ -139,4 +143,17 @@ void testAll_getQuantitySubmatrices()
 
     int res = getQuantitySubmatrices(&newMatrix);
     assert(res == 13);
+}
+
+//6
+void testAll_getMinLexicographicallyStr()
+{
+    char *pattern1 = "IIIDIDDD";
+    char *pattern2 = "DDD";
+
+    char *res1 = getMinLexicographicallyStr(pattern1);
+    char *res2 = getMinLexicographicallyStr(pattern2);
+
+    ASSERT_STRING("123549876", res1)
+    ASSERT_STRING("4321", res2)
 }

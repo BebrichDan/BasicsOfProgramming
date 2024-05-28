@@ -13,6 +13,8 @@ int main(void)
 
     testAll_arrayDomainsWithPairedCounter();
 
+    testAll_getMinLexicographicallyStr();
+
     printf("holla\n");
     return 0;
 }
