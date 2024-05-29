@@ -175,3 +175,13 @@ void testAll_getMaxBinThree()
         assert(test[i] == treeItem.value);
     }
 }
+
+//8
+void testAll_getShuffledString() {
+    char s[] = "abap";
+    int indices[] = {0,3,2,1};
+
+    char *res = getShuffledString(s, indices, 4);
+
+    ASSERT_STRING("apab\0", res)
+}

@@ -57,7 +57,9 @@ typedef struct TreeItem {
 int compareTreeItemByLevel(const void *treeItemPtr1, const void *treeItemPtr2);
 void getMaxTreeImpl(int *nums, int level, int start, int end, int type, int *idx, vectorVoid *res);
 vectorVoid getMaxBinThree(int *nums, int len);
+
 //8
+char* getShuffledString(char *symbols, int *indices, int len);
 
 
 #endif //JOB_STREAMS_H

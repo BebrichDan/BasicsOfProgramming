@@ -17,6 +17,8 @@ int main(void)
 
     testAll_getMaxBinThree();
 
+    testAll_getShuffledString();
+
     printf("holla\n");
     return 0;
 }

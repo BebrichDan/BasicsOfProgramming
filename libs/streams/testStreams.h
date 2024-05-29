@@ -21,5 +21,8 @@ void testAll_getQuantitySubmatrices();
 void testAll_getMinLexicographicallyStr();
 //7
 void testAll_getMaxBinThree();
+//8
+void testAll_getShuffledString();
+//9
 
 #endif //JOB_TEST_STREAMS_H
