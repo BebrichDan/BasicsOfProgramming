@@ -32,6 +32,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled3.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/file_test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/file_test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/file_test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/file_test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/streams.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/CMakeFiles/streams.dir/testStreams.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libs/streams/libstreams.a" afterDir="false" />
@@ -100,11 +102,6 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.untitled3">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled3" TARGET_NAME="algorithms" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -157,7 +154,9 @@
       <workItem from="1716752018486" duration="1155000" />
       <workItem from="1716801712053" duration="2814000" />
       <workItem from="1716814725830" duration="8199000" />
-      <workItem from="1716899086888" duration="4419000" />
+      <workItem from="1716899086888" duration="4822000" />
+      <workItem from="1716906948776" duration="609000" />
+      <workItem from="1716970121348" duration="729000" />
     </task>
     <servers />
   </component>

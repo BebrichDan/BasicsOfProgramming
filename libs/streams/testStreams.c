@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include "streams.h"
 #include "testStreams.h"
 
@@ -184,4 +185,39 @@ void testAll_getShuffledString() {
     char *res = getShuffledString(s, indices, 4);
 
     ASSERT_STRING("apab\0", res)
+}
+
+//9
+void testAll_fileWithSmallerValues() {
+    int n = 700;
+    srand((unsigned) time(NULL));
+    FILE *fp = fopen ("file_test1.txt", "w+");
+
+    int expArray[1000];
+    int idx = 0;
+    for (int i = 0; i < 1000; i++) {
+        int val = rand();
+        if (val < n) {
+            expArray[idx++] = val;
+        }
+        fprintf(fp, "%d\n", val);
+    }
+    fclose(fp);
+
+    size_t res = fileWithValuesLessN("file_test1.txt", "file_test2.txt", n);
+    assert(idx == res);
+}
+
+//10
+void testAll_outputFileInChunks() {
+    int n = 15;
+    srand((unsigned) time(NULL));
+    FILE *fp = fopen ("file_test3.txt", "w+");
+
+    for (int i = 0; i < 1000; i++) {
+        fprintf(fp, "%d\n", i);
+    }
+    fclose(fp);
+
+    outputFileByNLines("file_test3.txt", n);
 }

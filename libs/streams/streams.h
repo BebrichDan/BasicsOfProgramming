@@ -61,5 +61,10 @@ vectorVoid getMaxBinThree(int *nums, int len);
 //8
 char* getShuffledString(char *symbols, int *indices, int len);
 
+//9
+size_t fileWithValuesLessN(char *fileInputPath, char *fileOutputPath, int n);
+
+//10
+void outputFileByNLines(char *fileInputPath, int n);
 
 #endif //JOB_STREAMS_H

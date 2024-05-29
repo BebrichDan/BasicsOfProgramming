@@ -24,5 +24,8 @@ void testAll_getMaxBinThree();
 //8
 void testAll_getShuffledString();
 //9
+void testAll_fileWithSmallerValues();
+//10
+void testAll_outputFileInChunks();
 
 #endif //JOB_TEST_STREAMS_H

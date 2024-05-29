@@ -3,6 +3,7 @@
 #include <intrin.h>
 #include <string.h>
 #include <ctype.h>
+#include <conio.h>
 #include "streams.h"
 
 //1
@@ -469,5 +470,74 @@ char *getShuffledString(char *symbols, int *indices, int len)
 
     return res;
 }
+
+//9
+size_t fileWithValuesLessN(char *fileInputPath, char *fileOutputPath, int n)
+{
+    FILE *fp = fopen(fileInputPath, "r");
+    FILE *fd = fopen(fileOutputPath, "w+");
+
+    if (fp == NULL)
+    {
+        fprintf(stderr, "Input file cannot be opened");
+        exit(1);
+    }
+    if (fd == NULL)
+    {
+        fprintf(stderr, "Output file cannot be opened");
+        exit(1);
+    }
+
+    size_t counter = 0;
+
+    int val;
+    while (fscanf(fp, "%d", &val) > 0)
+    {
+        if (val < n)
+        {
+            fprintf(fd, "%d\n", val);
+            counter++;
+        }
+    }
+    fclose(fp);
+    fclose(fd);
+
+    return counter;
+}
+
+//10
+void outputFileByNLines(char *fileInputPath, int n)
+{
+    FILE *fp = fopen(fileInputPath, "r");
+
+    if (fp == NULL)
+    {
+        fprintf(stderr, "Input file cannot be opened");
+        exit(1);
+    }
+
+    int counter = n;
+    while (fgets(_fileReadBuffer, sizeof(_fileReadBuffer), fp) != NULL)
+    {
+        printf("%s", _fileReadBuffer);
+
+        if (--counter == 0)
+        {
+            counter = n;
+            printf("Press Ctrl+C to continue..");
+            while (1)
+            {
+                if (getch() == 3)
+                {
+                    printf("\r                           \r");
+                    break;
+                }
+            }
+
+        }
+    }
+    fclose(fp);
+}
+
 
 

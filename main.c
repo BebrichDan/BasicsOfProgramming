@@ -19,6 +19,10 @@ int main(void)
 
     testAll_getShuffledString();
 
+    testAll_fileWithSmallerValues();
+
+    testAll_outputFileInChunks();
+
     printf("holla\n");
     return 0;
 }
